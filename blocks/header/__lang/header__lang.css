@@ -1,0 +1,9 @@
+.header__lang {
+    color: #FFF;
+    text-decoration: none;
+    transition: opacity .3s ease;
+}
+
+.header__lang:hover{
+    opacity: .8;
+}
