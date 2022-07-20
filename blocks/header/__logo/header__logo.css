@@ -1,11 +1,15 @@
 .header__logo{
-    object-fit: contain;
+    background-image: url(./../../../images/header/header__logo.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    width: 176px;
+    height: 52px;
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
     .header__logo {
-        display: flex;
-        object-fit: cover;
         width: 142px;
         height: 42px;
     }
