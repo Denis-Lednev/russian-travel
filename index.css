@@ -8,17 +8,16 @@
 7. DONE Добавить всем hover с transition DONE
 8. DONE Убрать лишние шрифты DONE
 9. DONE Сделать readme DONE
-9.1. Сделать ссылку в readme на GitHub Pages
+9.1. DONE Сделать ссылку в readme на GitHub Pages DONE
 10. DONE Проверить все в других браузерах DONE
 11. DONE Сделать Ru подчеркнутым DONE
 12. DONE Сгладить шрифты DONE 
 13. DONE Поиграться с гридами, посмотреть, есть ли другой вариант масштабирования DONE
 14. DONE Проверить на PixelPerfect DONE
 15. DONE photo-grid поиграться  с высотой, убрать фиксированную высоту DONE
-16. DONE Убрать тупой нейминг в хедер с лэгуаге DONE
-
+16. DONE Убрать тупой нейминг в хедер с лэнгуаге DONE
+17. DONE Проверить на валидаторе DONE
 18. DONE Поправить гриды и разместить их корректно по нестед DONE
-
 */
 
 @import url(./vendor/normalize.css);
@@ -65,6 +64,6 @@
 @import url(./blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(./blocks/footer/footer.css);
-@import url(./blocks/footer/__nav/footer__nav.css);
+@import url(./blocks/footer/__nav-list/footer__nav-list.css);
 @import url(./blocks/footer/__link/footer__link.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);

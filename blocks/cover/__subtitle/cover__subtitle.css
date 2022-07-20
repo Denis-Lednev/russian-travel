@@ -12,13 +12,13 @@
 
 @media screen and (max-width: 1280px) {
     .cover__subtitle {
-        bottom: calc(195 / 640 * 100%)
+        bottom: calc(195 / 640 * 100%);
     }
 }
 
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        bottom: calc(115 / 480 * 100%)
+        bottom: calc(115 / 480 * 100%);
     }
 }
 
@@ -27,6 +27,6 @@
         font-size: 14px;
         line-height: 16px;
         white-space: pre-line;
-        bottom: calc(33 / 200 * 100%)
+        bottom: calc(33 / 200 * 100%);
     }
 }
