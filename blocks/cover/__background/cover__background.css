@@ -1,6 +1,5 @@
 
 .cover__background {
-    min-width: 320px;
     max-width: 1184px;
     min-height: 200px;
     max-height: 740px;
@@ -13,8 +12,17 @@
     z-index: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        gap: 16px;
+    }
 }
 
 .cover__background::before{

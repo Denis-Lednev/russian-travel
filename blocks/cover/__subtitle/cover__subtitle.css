@@ -4,29 +4,16 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    position: absolute;
-    bottom: 245px;
+    position: relative;
     max-width: 360px;
     color: #fff;
 }
 
-@media screen and (max-width: 1280px) {
-    .cover__subtitle {
-        bottom: calc(195 / 640 * 100%);
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-        bottom: calc(115 / 480 * 100%);
-    }
-}
 
 @media screen and (max-width: 768px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
         white-space: pre-line;
-        bottom: calc(33 / 200 * 100%);
     }
 }
