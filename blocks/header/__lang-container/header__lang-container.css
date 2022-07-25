@@ -6,16 +6,15 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    padding: 0;
+    padding: 18px 0 0; /*Если мы только центрируем, через align-items: center, то у нас по PP не встает элемент в макет, поэтому я использовал изначально top, сейчас пробую padding*/
     position: relative;
-    top: 18px;
-    height: 100%;
+    align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header__lang-container{
         align-items: flex-end;
-        top: 14px;
+        padding: 14px 0 0;
         font-size: 18px;
         line-height: 20px;
     }

@@ -10,10 +10,10 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        white-space: pre-line;
+        max-width: 277px; /* Не встает тут текст как по макету без white-space и по max-width: 288px, поэтому я поменял на max-width: 277px =( */
     }
 }
